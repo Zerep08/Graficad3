@@ -1,0 +1,51 @@
+{
+    "name": "pagina",
+    "children":[
+    {
+    "name":"main menu",
+            "children":[
+            {
+                "name":"Shop",
+                    "children":[
+                    {"name":"shoes", "size":80},
+                    {"name":"tees", "size":60},
+                    {"name":"tops", "size":70}
+                    ]
+                
+            },
+            {
+                "name":"men",
+                    "children":[
+                    {"name":"yoggers", "size":40},
+                    {"name":"football", "size":51},
+                    {"name":"cricket", "size":20},
+                    {"name":"menimg1", "size":30},
+                    {"name":"menimg2", "size":20}
+                    ]
+                
+            },
+            {
+                "name":"woman",
+                    "children":[
+                    {"name":"tops", "size":40},
+                    {"name":"bottoms", "size":51},
+                    {"name":"yoga pants", "size":20},
+                    {"name":"womanimg1", "size":30}
+                    ]
+                
+            }
+            ]        
+        },
+        
+        {
+         "name":"banner",
+          "children":[
+            {"name":"leftArrow","size":30},
+            {"name":"orangeShoes","size":25},
+            {"name":"greenShoes","size":10},
+            {"name":"blueshoes","size":40},
+            {"name":"FlareVis","size":25}
+            ]                  
+        }
+    ]
+}
